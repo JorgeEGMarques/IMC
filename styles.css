@@ -2,7 +2,7 @@ body {
     background-color: #a9767a;
     display: grid;
     grid-template-areas: 'header header header'
-        'main main sidebar'
+        'main main main'
         'footer footer footer';
     margin: 0;
 }
