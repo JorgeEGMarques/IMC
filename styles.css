@@ -1,0 +1,19 @@
+body {
+    background-color: #a9767a;
+    display: grid;
+    grid-template-areas: 'header header header'
+        'main main sidebar'
+        'footer footer footer';
+    margin: 0;
+}
+
+header {
+    align-items: center;
+    background-color: #92394b;
+    color: white;
+    display: flex;
+    font-size: large;
+    grid-area: header;
+    height: 100px;
+    justify-content: center;
+}
