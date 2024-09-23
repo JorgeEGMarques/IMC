@@ -7,25 +7,28 @@
         <link rel="stylesheet" href="../styles.css">
         <link rel="stylesheet" href="../styles/imc.css">
         <link rel="stylesheet" href="../styles/dropdown.css">
+        <script src="https://kit.fontawesome.com/aa559075ed.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <h1>Calculadora IMC</h1>
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+            <h1 id="title">Calculadora IMC</h1>
+            <div id="dropdown" class="dropdown">
+                <button id="dropbtn" class="dropbtn">
+                    <i class="fa-solid fa-bars fa-3x"></i>
+                </button>
                 <div id="myDropdown" class="dropdown-content">
-                    <a href="home.html">Home</a>
+                    <a href="../index.html">Home</a>
                     <a href="imc.html">Calculadora IMC</a>
                 </div>
             </div>
         </header>
         <main>
             <div class="input">
-                <label for="peso">Peso</label>
+                <label for="peso">Peso (kg)</label>
                 <input type="number" id="peso">
             </div>
             <div class="input">
-                <label for="altura">Altura</label>
+                <label for="altura">Altura (m)</label>
                 <input type="number" id="altura">
             </div>
             <button id="calcular">Calcular</button>

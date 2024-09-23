@@ -23,4 +23,4 @@ function imc () {
     }
 }
 
-btn.addEventListener('click', imc);
+btn.addEventListener("click", imc);

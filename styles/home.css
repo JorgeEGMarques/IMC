@@ -1,0 +1,12 @@
+main {
+    background-image: linear-gradient(
+        to right,
+        rgba(246, 246, 226, 0.9),
+        rgba(246, 246, 226, 0.7)
+        ),
+        url("../images/bebendo-agua.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+}
