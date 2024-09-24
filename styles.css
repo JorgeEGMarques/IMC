@@ -6,8 +6,8 @@ body {
     font-family: "Poppins", sans-serif;
     grid-template-areas:
         'header header header'
-        'main main main'
-        'main main main'
+        'section1 section1 section1'
+        'section2 section2 section2'
         'footer footer footer';
     margin: 0;
 }
@@ -26,6 +26,6 @@ header #title {
 }
 
 header .dropdown {
-    align-self:center;
+    align-self: center;
     margin-left: 10px;
 }
