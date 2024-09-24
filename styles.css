@@ -2,13 +2,7 @@
 
 body {
     background-color: #f6f6e2;
-    display: grid;
     font-family: "Poppins", sans-serif;
-    grid-template-areas:
-        'header header header'
-        'section1 section1 section1'
-        'section2 section2 section2'
-        'footer footer footer';
     margin: 0;
 }
 
@@ -16,7 +10,6 @@ header {
     background-color: #5f3711;
     display: flex;
     flex-direction: row-reverse;
-    grid-area: header;
     height: 100px;
     justify-content: space-between;
 }

@@ -1,14 +1,39 @@
-main {
-    align-items: center;
+.container {
     display: flex;
-    flex-direction: column;
-    grid-area: main;
     justify-content: center;
 }
 
+#calculadora {
+    border: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 10px;
+}
+
 .input {
-    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 10px;
+}
+
+.container button {
+    background-color: #874c14;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: black 2px 2px;
+    height: 24px;
+    margin: 20px auto 10px auto;
+    width: 100px;
+}
+
+.container button:hover {
+    background-color: #e2d5c1;
+    cursor: pointer;
+}
+
+.container button:active {
+    background-color: #d4c098;
 }
