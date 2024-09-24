@@ -63,3 +63,9 @@
 @media (max-width: 855px) {
     #section3 img { width: 0; }
 }
+
+#section4 {
+    background-color: #e2d5c1;
+    display: flex;
+    justify-content: center;
+}
