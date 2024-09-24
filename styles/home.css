@@ -1,18 +1,65 @@
 #section1 {
-    align-items: center;
     background-image: linear-gradient(
         to right,
         rgba(246, 246, 226, 0.9),
         rgba(246, 246, 226, 0.7)
         ),
         url("../images/bebendo-agua.webp");
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 1px;
 }
 
 #section2 {
     background-color: #e2d5c1;
     display: flex;
+    justify-content: center;
+}
+
+.texto {
+    width: 50%;
+    padding: 0px 50px;
+}
+
+.texto h2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 720px) {
+    .texto {
+        width: 100%;
+    }
+}
+
+#section3 {
+    align-items: center;
+    display: flex;
     flex-direction: column;
+}
+
+#section3 img {
+    width: 250px;
+    height: 250px;
+}
+
+.exercicio-right {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.exercicio-left {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+@media (max-width: 855px) {
+    #section3 img { width: 0; }
 }
